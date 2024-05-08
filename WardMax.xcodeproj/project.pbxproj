@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B2B43432BC3087D0008D58D /* ApiMerchantType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B43422BC3087D0008D58D /* ApiMerchantType.swift */; };
+		3B2B43452BC308F10008D58D /* ApiCashback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B43442BC308F10008D58D /* ApiCashback.swift */; };
+		3B2B43472BC308FC0008D58D /* ApiPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B43462BC308FC0008D58D /* ApiPoints.swift */; };
+		3B2B43492BC309C60008D58D /* ApiPointConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B43482BC309C60008D58D /* ApiPointConversion.swift */; };
+		3B2B434B2BC30D810008D58D /* ApiCardOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B434A2BC30D810008D58D /* ApiCardOffer.swift */; };
+		3B2B434D2BC30F740008D58D /* ApiMerchant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B434C2BC30F740008D58D /* ApiMerchant.swift */; };
+		3B2B43502BC311DC0008D58D /* WardMaxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B434F2BC311DC0008D58D /* WardMaxController.swift */; };
+		3B2B43522BC323F60008D58D /* Converters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B43512BC323F60008D58D /* Converters.swift */; };
+		3B2B43542BC3379B0008D58D /* WardMaxData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B43532BC3379B0008D58D /* WardMaxData.swift */; };
+		3B2B43572BC36EB30008D58D /* CardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B43562BC36EB30008D58D /* CardItem.swift */; };
+		3B2B43592BC393F80008D58D /* CardsNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B43582BC393F80008D58D /* CardsNew.swift */; };
+		3B2B435E2BC4D8770008D58D /* TextFieldDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B435D2BC4D8770008D58D /* TextFieldDelay.swift */; };
+		3BAAFB022BBE54CA00DE133A /* WardMaxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB012BBE54CA00DE133A /* WardMaxApp.swift */; };
+		3BAAFB042BBE54CA00DE133A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB032BBE54CA00DE133A /* ContentView.swift */; };
+		3BAAFB062BBE54CB00DE133A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BAAFB052BBE54CB00DE133A /* Assets.xcassets */; };
+		3BAAFB092BBE54CB00DE133A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BAAFB082BBE54CB00DE133A /* Preview Assets.xcassets */; };
+		3BAAFB0B2BBE54CB00DE133A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB0A2BBE54CB00DE133A /* Persistence.swift */; };
+		3BAAFB0E2BBE54CB00DE133A /* WardMax.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB0C2BBE54CB00DE133A /* WardMax.xcdatamodeld */; };
+		3BAAFB162BC2402100DE133A /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB152BC2402100DE133A /* Form.swift */; };
+		3BAAFB182BC2F6D300DE133A /* HomeNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB172BC2F6D300DE133A /* HomeNav.swift */; };
+		3BAAFB1A2BC2F6E800DE133A /* SearchNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB192BC2F6E800DE133A /* SearchNav.swift */; };
+		3BAAFB1C2BC2F6F800DE133A /* StoresNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB1B2BC2F6F800DE133A /* StoresNav.swift */; };
+		3BAAFB1E2BC2F70A00DE133A /* CatsNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB1D2BC2F70A00DE133A /* CatsNav.swift */; };
+		3BAAFB202BC2F71700DE133A /* CardsNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB1F2BC2F71700DE133A /* CardsNav.swift */; };
+		3BAAFB222BC2F77900DE133A /* FormTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB212BC2F77900DE133A /* FormTabView.swift */; };
+		3BAAFB242BC2F78600DE133A /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB232BC2F78600DE133A /* FormView.swift */; };
+		3BAAFB272BC2F7CF00DE133A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB262BC2F7CF00DE133A /* Home.swift */; };
+		3BAAFB292BC2F85F00DE133A /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB282BC2F85F00DE133A /* Search.swift */; };
+		3BAAFB2B2BC2F86B00DE133A /* Stores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB2A2BC2F86B00DE133A /* Stores.swift */; };
+		3BAAFB2D2BC2F88100DE133A /* Cats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB2C2BC2F88100DE133A /* Cats.swift */; };
+		3BAAFB2F2BC2F89300DE133A /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB2E2BC2F89300DE133A /* Cards.swift */; };
+		3BAAFB342BC302C000DE133A /* ApiCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB332BC302C000DE133A /* ApiCard.swift */; };
+		3BAAFB362BC302EC00DE133A /* ApiNetworkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB352BC302EC00DE133A /* ApiNetworkType.swift */; };
+		3BAAFB382BC302F400DE133A /* ApiRewardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB372BC302F400DE133A /* ApiRewardType.swift */; };
+		3BC62B6B2BE9D72B00463BCC /* CardsNewManual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC62B6A2BE9D72B00463BCC /* CardsNewManual.swift */; };
+		3BC62B6D2BEB2A7B00463BCC /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3BC62B6C2BEB2A7B00463BCC /* LICENSE.txt */; };
+		3BFF36982BCF7D2E0003E4E1 /* ApiCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF36972BCF7D2E0003E4E1 /* ApiCardItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B2B43422BC3087D0008D58D /* ApiMerchantType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiMerchantType.swift; sourceTree = "<group>"; };
+		3B2B43442BC308F10008D58D /* ApiCashback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCashback.swift; sourceTree = "<group>"; };
+		3B2B43462BC308FC0008D58D /* ApiPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPoints.swift; sourceTree = "<group>"; };
+		3B2B43482BC309C60008D58D /* ApiPointConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPointConversion.swift; sourceTree = "<group>"; };
+		3B2B434A2BC30D810008D58D /* ApiCardOffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCardOffer.swift; sourceTree = "<group>"; };
+		3B2B434C2BC30F740008D58D /* ApiMerchant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiMerchant.swift; sourceTree = "<group>"; };
+		3B2B434F2BC311DC0008D58D /* WardMaxController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WardMaxController.swift; sourceTree = "<group>"; };
+		3B2B43512BC323F60008D58D /* Converters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converters.swift; sourceTree = "<group>"; };
+		3B2B43532BC3379B0008D58D /* WardMaxData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WardMaxData.swift; sourceTree = "<group>"; };
+		3B2B43562BC36EB30008D58D /* CardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItem.swift; sourceTree = "<group>"; };
+		3B2B43582BC393F80008D58D /* CardsNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsNew.swift; sourceTree = "<group>"; };
+		3B2B435D2BC4D8770008D58D /* TextFieldDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDelay.swift; sourceTree = "<group>"; };
+		3BAAFAFE2BBE54CA00DE133A /* WardMax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WardMax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BAAFB012BBE54CA00DE133A /* WardMaxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WardMaxApp.swift; sourceTree = "<group>"; };
+		3BAAFB032BBE54CA00DE133A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3BAAFB052BBE54CB00DE133A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BAAFB082BBE54CB00DE133A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BAAFB0A2BBE54CB00DE133A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3BAAFB0D2BBE54CB00DE133A /* WardMax.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WardMax.xcdatamodel; sourceTree = "<group>"; };
+		3BAAFB152BC2402100DE133A /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		3BAAFB172BC2F6D300DE133A /* HomeNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNav.swift; sourceTree = "<group>"; };
+		3BAAFB192BC2F6E800DE133A /* SearchNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchNav.swift; sourceTree = "<group>"; };
+		3BAAFB1B2BC2F6F800DE133A /* StoresNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresNav.swift; sourceTree = "<group>"; };
+		3BAAFB1D2BC2F70A00DE133A /* CatsNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsNav.swift; sourceTree = "<group>"; };
+		3BAAFB1F2BC2F71700DE133A /* CardsNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsNav.swift; sourceTree = "<group>"; };
+		3BAAFB212BC2F77900DE133A /* FormTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTabView.swift; sourceTree = "<group>"; };
+		3BAAFB232BC2F78600DE133A /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		3BAAFB262BC2F7CF00DE133A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3BAAFB282BC2F85F00DE133A /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		3BAAFB2A2BC2F86B00DE133A /* Stores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stores.swift; sourceTree = "<group>"; };
+		3BAAFB2C2BC2F88100DE133A /* Cats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cats.swift; sourceTree = "<group>"; };
+		3BAAFB2E2BC2F89300DE133A /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		3BAAFB332BC302C000DE133A /* ApiCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCard.swift; sourceTree = "<group>"; };
+		3BAAFB352BC302EC00DE133A /* ApiNetworkType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiNetworkType.swift; sourceTree = "<group>"; };
+		3BAAFB372BC302F400DE133A /* ApiRewardType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRewardType.swift; sourceTree = "<group>"; };
+		3BC62B6A2BE9D72B00463BCC /* CardsNewManual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsNewManual.swift; sourceTree = "<group>"; };
+		3BC62B6C2BEB2A7B00463BCC /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		3BC62B6E2BEB2AED00463BCC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3BFF36972BCF7D2E0003E4E1 /* ApiCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCardItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BAAFAFB2BBE54CA00DE133A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B2B434E2BC311BF0008D58D /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				3B2B434F2BC311DC0008D58D /* WardMaxController.swift */,
+				3B2B43512BC323F60008D58D /* Converters.swift */,
+				3B2B43532BC3379B0008D58D /* WardMaxData.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		3B2B43552BC36EA30008D58D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3B2B43562BC36EB30008D58D /* CardItem.swift */,
+				3BFF36972BCF7D2E0003E4E1 /* ApiCardItem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3B2B435C2BC4D85A0008D58D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3B2B435D2BC4D8770008D58D /* TextFieldDelay.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3BAAFAF52BBE54C900DE133A = {
+			isa = PBXGroup;
+			children = (
+				3BAAFB002BBE54CA00DE133A /* WardMax */,
+				3BAAFAFF2BBE54CA00DE133A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BAAFAFF2BBE54CA00DE133A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BAAFAFE2BBE54CA00DE133A /* WardMax.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BAAFB002BBE54CA00DE133A /* WardMax */ = {
+			isa = PBXGroup;
+			children = (
+				3B2B435C2BC4D85A0008D58D /* Helpers */,
+				3B2B43552BC36EA30008D58D /* Components */,
+				3B2B434E2BC311BF0008D58D /* Business */,
+				3BAAFB302BC2FE7F00DE133A /* Objects */,
+				3BAAFB252BC2F7B300DE133A /* Forms */,
+				3BAAFB142BC23FDB00DE133A /* Navigation */,
+				3BAAFB012BBE54CA00DE133A /* WardMaxApp.swift */,
+				3BAAFB032BBE54CA00DE133A /* ContentView.swift */,
+				3BAAFB052BBE54CB00DE133A /* Assets.xcassets */,
+				3BAAFB0A2BBE54CB00DE133A /* Persistence.swift */,
+				3BAAFB0C2BBE54CB00DE133A /* WardMax.xcdatamodeld */,
+				3BAAFB072BBE54CB00DE133A /* Preview Content */,
+				3BC62B6C2BEB2A7B00463BCC /* LICENSE.txt */,
+				3BC62B6E2BEB2AED00463BCC /* README.md */,
+			);
+			path = WardMax;
+			sourceTree = "<group>";
+		};
+		3BAAFB072BBE54CB00DE133A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3BAAFB082BBE54CB00DE133A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BAAFB142BC23FDB00DE133A /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				3BAAFB152BC2402100DE133A /* Form.swift */,
+				3BAAFB172BC2F6D300DE133A /* HomeNav.swift */,
+				3BAAFB192BC2F6E800DE133A /* SearchNav.swift */,
+				3BAAFB1B2BC2F6F800DE133A /* StoresNav.swift */,
+				3BAAFB1D2BC2F70A00DE133A /* CatsNav.swift */,
+				3BAAFB1F2BC2F71700DE133A /* CardsNav.swift */,
+				3BAAFB212BC2F77900DE133A /* FormTabView.swift */,
+				3BAAFB232BC2F78600DE133A /* FormView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		3BAAFB252BC2F7B300DE133A /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				3BAAFB262BC2F7CF00DE133A /* Home.swift */,
+				3BAAFB282BC2F85F00DE133A /* Search.swift */,
+				3BAAFB2A2BC2F86B00DE133A /* Stores.swift */,
+				3BAAFB2C2BC2F88100DE133A /* Cats.swift */,
+				3BAAFB2E2BC2F89300DE133A /* Cards.swift */,
+				3B2B43582BC393F80008D58D /* CardsNew.swift */,
+				3BC62B6A2BE9D72B00463BCC /* CardsNewManual.swift */,
+			);
+			path = Forms;
+			sourceTree = "<group>";
+		};
+		3BAAFB302BC2FE7F00DE133A /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				3BAAFB372BC302F400DE133A /* ApiRewardType.swift */,
+				3BAAFB352BC302EC00DE133A /* ApiNetworkType.swift */,
+				3BAAFB332BC302C000DE133A /* ApiCard.swift */,
+				3B2B43422BC3087D0008D58D /* ApiMerchantType.swift */,
+				3B2B43442BC308F10008D58D /* ApiCashback.swift */,
+				3B2B43462BC308FC0008D58D /* ApiPoints.swift */,
+				3B2B43482BC309C60008D58D /* ApiPointConversion.swift */,
+				3B2B434A2BC30D810008D58D /* ApiCardOffer.swift */,
+				3B2B434C2BC30F740008D58D /* ApiMerchant.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BAAFAFD2BBE54CA00DE133A /* WardMax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BAAFB112BBE54CB00DE133A /* Build configuration list for PBXNativeTarget "WardMax" */;
+			buildPhases = (
+				3BAAFAFA2BBE54CA00DE133A /* Sources */,
+				3BAAFAFB2BBE54CA00DE133A /* Frameworks */,
+				3BAAFAFC2BBE54CA00DE133A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WardMax;
+			productName = WardMax;
+			productReference = 3BAAFAFE2BBE54CA00DE133A /* WardMax.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BAAFAF62BBE54C900DE133A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					3BAAFAFD2BBE54CA00DE133A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 3BAAFAF92BBE54C900DE133A /* Build configuration list for PBXProject "WardMax" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BAAFAF52BBE54C900DE133A;
+			productRefGroup = 3BAAFAFF2BBE54CA00DE133A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BAAFAFD2BBE54CA00DE133A /* WardMax */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BAAFAFC2BBE54CA00DE133A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC62B6D2BEB2A7B00463BCC /* LICENSE.txt in Resources */,
+				3BAAFB092BBE54CB00DE133A /* Preview Assets.xcassets in Resources */,
+				3BAAFB062BBE54CB00DE133A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BAAFAFA2BBE54CA00DE133A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAAFB2D2BC2F88100DE133A /* Cats.swift in Sources */,
+				3B2B43592BC393F80008D58D /* CardsNew.swift in Sources */,
+				3BAAFB242BC2F78600DE133A /* FormView.swift in Sources */,
+				3B2B43572BC36EB30008D58D /* CardItem.swift in Sources */,
+				3BAAFB0E2BBE54CB00DE133A /* WardMax.xcdatamodeld in Sources */,
+				3BAAFB222BC2F77900DE133A /* FormTabView.swift in Sources */,
+				3BAAFB342BC302C000DE133A /* ApiCard.swift in Sources */,
+				3B2B435E2BC4D8770008D58D /* TextFieldDelay.swift in Sources */,
+				3B2B43492BC309C60008D58D /* ApiPointConversion.swift in Sources */,
+				3BAAFB202BC2F71700DE133A /* CardsNav.swift in Sources */,
+				3BAAFB1A2BC2F6E800DE133A /* SearchNav.swift in Sources */,
+				3B2B434D2BC30F740008D58D /* ApiMerchant.swift in Sources */,
+				3BAAFB2B2BC2F86B00DE133A /* Stores.swift in Sources */,
+				3B2B43432BC3087D0008D58D /* ApiMerchantType.swift in Sources */,
+				3BAAFB0B2BBE54CB00DE133A /* Persistence.swift in Sources */,
+				3BAAFB272BC2F7CF00DE133A /* Home.swift in Sources */,
+				3BC62B6B2BE9D72B00463BCC /* CardsNewManual.swift in Sources */,
+				3BAAFB382BC302F400DE133A /* ApiRewardType.swift in Sources */,
+				3B2B43542BC3379B0008D58D /* WardMaxData.swift in Sources */,
+				3B2B43522BC323F60008D58D /* Converters.swift in Sources */,
+				3BAAFB2F2BC2F89300DE133A /* Cards.swift in Sources */,
+				3BAAFB182BC2F6D300DE133A /* HomeNav.swift in Sources */,
+				3BAAFB162BC2402100DE133A /* Form.swift in Sources */,
+				3BAAFB042BBE54CA00DE133A /* ContentView.swift in Sources */,
+				3BAAFB022BBE54CA00DE133A /* WardMaxApp.swift in Sources */,
+				3BAAFB1C2BC2F6F800DE133A /* StoresNav.swift in Sources */,
+				3BAAFB1E2BC2F70A00DE133A /* CatsNav.swift in Sources */,
+				3B2B43502BC311DC0008D58D /* WardMaxController.swift in Sources */,
+				3B2B434B2BC30D810008D58D /* ApiCardOffer.swift in Sources */,
+				3B2B43472BC308FC0008D58D /* ApiPoints.swift in Sources */,
+				3BAAFB292BC2F85F00DE133A /* Search.swift in Sources */,
+				3B2B43452BC308F10008D58D /* ApiCashback.swift in Sources */,
+				3BFF36982BCF7D2E0003E4E1 /* ApiCardItem.swift in Sources */,
+				3BAAFB362BC302EC00DE133A /* ApiNetworkType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3BAAFB0F2BBE54CB00DE133A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BAAFB102BBE54CB00DE133A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BAAFB122BBE54CB00DE133A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WardMax/Preview Content\"";
+				DEVELOPMENT_TEAM = USLHQ524FW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.decahex.WardMax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BAAFB132BBE54CB00DE133A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WardMax/Preview Content\"";
+				DEVELOPMENT_TEAM = USLHQ524FW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.decahex.WardMax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BAAFAF92BBE54C900DE133A /* Build configuration list for PBXProject "WardMax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BAAFB0F2BBE54CB00DE133A /* Debug */,
+				3BAAFB102BBE54CB00DE133A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BAAFB112BBE54CB00DE133A /* Build configuration list for PBXNativeTarget "WardMax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BAAFB122BBE54CB00DE133A /* Debug */,
+				3BAAFB132BBE54CB00DE133A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3BAAFB0C2BBE54CB00DE133A /* WardMax.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3BAAFB0D2BBE54CB00DE133A /* WardMax.xcdatamodel */,
+			);
+			currentVersion = 3BAAFB0D2BBE54CB00DE133A /* WardMax.xcdatamodel */;
+			path = WardMax.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3BAAFAF62BBE54C900DE133A /* Project object */;
+}
