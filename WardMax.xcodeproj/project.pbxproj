@@ -129,6 +129,8 @@
 		3BAAFAF52BBE54C900DE133A = {
 			isa = PBXGroup;
 			children = (
+				3BC62B6C2BEB2A7B00463BCC /* LICENSE.txt */,
+				3BC62B6E2BEB2AED00463BCC /* README.md */,
 				3BAAFB002BBE54CA00DE133A /* WardMax */,
 				3BAAFAFF2BBE54CA00DE133A /* Products */,
 			);
@@ -157,8 +159,6 @@
 				3BAAFB0A2BBE54CB00DE133A /* Persistence.swift */,
 				3BAAFB0C2BBE54CB00DE133A /* WardMax.xcdatamodeld */,
 				3BAAFB072BBE54CB00DE133A /* Preview Content */,
-				3BC62B6C2BEB2A7B00463BCC /* LICENSE.txt */,
-				3BC62B6E2BEB2AED00463BCC /* README.md */,
 			);
 			path = WardMax;
 			sourceTree = "<group>";
