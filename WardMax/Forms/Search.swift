@@ -32,7 +32,7 @@ struct Search: View {
                 }
                 Spacer()
             }else{
-                Text("Add a card first!")
+                Text("Add a card first! change")
             }
         }.frame(maxWidth: .infinity)
             .onAppear(){
