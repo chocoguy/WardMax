@@ -43,6 +43,7 @@
 		3BAAFB382BC302F400DE133A /* ApiRewardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAFB372BC302F400DE133A /* ApiRewardType.swift */; };
 		3BC62B6B2BE9D72B00463BCC /* CardsNewManual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC62B6A2BE9D72B00463BCC /* CardsNewManual.swift */; };
 		3BC62B6D2BEB2A7B00463BCC /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3BC62B6C2BEB2A7B00463BCC /* LICENSE.txt */; };
+		3BC62B702BEC68E300463BCC /* CardAdvantage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC62B6F2BEC68E300463BCC /* CardAdvantage.swift */; };
 		3BFF36982BCF7D2E0003E4E1 /* ApiCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF36972BCF7D2E0003E4E1 /* ApiCardItem.swift */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +86,7 @@
 		3BC62B6A2BE9D72B00463BCC /* CardsNewManual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsNewManual.swift; sourceTree = "<group>"; };
 		3BC62B6C2BEB2A7B00463BCC /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		3BC62B6E2BEB2AED00463BCC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3BC62B6F2BEC68E300463BCC /* CardAdvantage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAdvantage.swift; sourceTree = "<group>"; };
 		3BFF36972BCF7D2E0003E4E1 /* ApiCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCardItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				3B2B435D2BC4D8770008D58D /* TextFieldDelay.swift */,
+				3BC62B6F2BEC68E300463BCC /* CardAdvantage.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				3BAAFB272BC2F7CF00DE133A /* Home.swift in Sources */,
 				3BC62B6B2BE9D72B00463BCC /* CardsNewManual.swift in Sources */,
 				3BAAFB382BC302F400DE133A /* ApiRewardType.swift in Sources */,
+				3BC62B702BEC68E300463BCC /* CardAdvantage.swift in Sources */,
 				3B2B43542BC3379B0008D58D /* WardMaxData.swift in Sources */,
 				3B2B43522BC323F60008D58D /* Converters.swift in Sources */,
 				3BAAFB2F2BC2F89300DE133A /* Cards.swift in Sources */,
