@@ -13,6 +13,8 @@ struct Cards: View {
     @FetchRequest(sortDescriptors: []) var Cards: FetchedResults<Card>
     
     @State var _searchQuery: String = ""
+    @State private var ShowCardDetails: Bool = false
+    @State private var SelectedCard: Card = Card()
     
     var body: some View {
         VStack{
@@ -30,20 +32,48 @@ struct Cards: View {
             }
 
             List {
-                 Text("A List Item")
+                CardItem().swipeActions(allowsFullSwipe: false){
+                    Button{
+                        initEditCard()
+                    } label : {
+                        Label("Edit", systemImage: "pencil.line")
+                    }.tint(.blue)
+                    
+                    Button{
+                        initDeleteCard()
+                    } label: {
+                        Label("Delete", systemImage: "trash.fill")
+                    }.tint(.red)
+                }.onTapGesture {
+                    ShowCardDetails = true
+                }
                  Text("A Second List Item")
                  Text("A Third List Item")
              }
         }.background(Color.black)
+            .sheet(isPresented: $ShowCardDetails){
+                CardView()
+                    .ignoresSafeArea()
+                    .navigationTitle("Card")
+                    .navigationBarTitleDisplayMode(.automatic)
+            }
     }
     
-    
-    func InitAddCard(){
+    func initViewCardDetails(){
         
     }
     
-}
-
-#Preview {
-    Cards()
+    func initAddCard(){
+        print("Add card")
+    }
+    
+    func initEditCard(){
+        print("Edit card")
+    }
+    
+    func initDeleteCard(){
+        print("Delete card")
+    }
+    
+    
 }

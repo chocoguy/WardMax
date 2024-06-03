@@ -55,7 +55,9 @@ struct Converters{
     }
     
     func BuildCardAdvantageObject(cardAdvantageString: String) -> [CardAdvantage] {
+        var builtAdvantage: [CardAdvantage] = []
         
+        return builtAdvantage
     }
     
 }
